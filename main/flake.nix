@@ -11,6 +11,7 @@
   inputs.src-bytesequtils-main.ref   = "refs/heads/main";
   inputs.src-bytesequtils-main.owner = "Clonkk";
   inputs.src-bytesequtils-main.repo  = "bytesequtils";
+  inputs.src-bytesequtils-main.dir   = "";
   inputs.src-bytesequtils-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
